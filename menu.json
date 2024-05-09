@@ -1,0 +1,48 @@
+{ 
+  "items": [
+     {
+        "category":"Bebidas",
+        "items": [
+          {
+            "name":"Coca-cola",
+                "description":"Bebida, gaseosa embotellada de 2.5 litros.",
+                "price":"$32",
+                "image":"img/01.jpg"
+          },
+          {
+            "name":"Aguas frescas",
+                "description":"Bebida fresca.",
+                "price":"$60",
+                "image":"img/02.jpg"
+          },
+          {
+            "name":"Cerveza",
+                "description":"Cerveza en venta a personas mayores de edad.",
+                "price":"$70",
+                "image":"img/03.jpg"
+          },
+          {
+            "name":"Bebida Energeticas",
+                "description":"Bebidas energeticas, para un dia cansado.",
+                "price":"$32",
+                "image":"img/04.jpg"
+          },
+          {
+            "name":"Cafe",
+                "description":"Cafe calientito.",
+                "price":"$15",
+                "image":"img/05.jpg"
+          },
+          {
+            "name":"Agua Natural",
+                "description":"Agua embotellada..",
+                "price":"$30",
+                "image":"img/06.jpg"
+          }
+        ]
+
+     }
+
+     
+]
+}

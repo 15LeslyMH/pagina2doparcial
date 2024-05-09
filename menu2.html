@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.cdnfonts.com/css/bolde" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+      
+    <div style="margin:24px;">
+    </div>
+<style>
+    #menu-container{
+        font-family: 'BOLDE', sans-serif;
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: rgb(61, 95, 129);
+        box-shadow: 0 4px 8px rgb(111, 154, 198);
+        border-radius: 8px;
+    }
+    h2{
+        color: rgb(61, 95, 129);
+        font-size: 24px;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid rgb(111, 154, 198);
+    }
+    table{
+        width: 100px;
+        border-collapse: collapse;
+        margin-top: 10px;
+        text-align: left;
+        margin:0 auto;
+    }
+    th,td{
+        padding: 8px;
+        border: 1px solid rgb(111, 154, 198);
+    }
+    th{
+        background-color: rgb(61, 95, 129);
+    }
+    tr:nth-child(odd) td{
+        background-color: royalblue;
+    }
+    tr:nth-child(even) td {
+        background-color: rgb(111, 154, 198);
+    }
+    tr:nth-child(2n+1)  tr:nth-child(1) {background-color: rgb(111, 154, 198);}
+    tr:nth-child(2n+1)  tr:nth-child(2) {background-color: rgb(61, 95, 129);}
+    tr:nth-child(2n+1)  tr:nth-child(3) {background-color: rgb(111, 154, 198);}
+    tr:nth-child(2n+1)  tr:nth-child(1) {background-color: rgb(61, 95, 129);}
+    tr:nth-child(2n+1)  tr:nth-child(2) {background-color: rgb(111, 154, 198);}
+    tr:nth-child(2n+1)  tr:nth-child(3) {background-color: rgb(61, 95, 129);}
+
+    img{
+       display: block;
+       max-width: 100px;
+       height: auto;
+       margin: 0 auto;
+    }
+
+
+</style>
+     <h1>Menu</h1>
+     <div id="menu-container"></div>
+     <script src="menu.js"></script>
+
+</body>
+</html>
